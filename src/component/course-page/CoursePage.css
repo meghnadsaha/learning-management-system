@@ -1,0 +1,35 @@
+/* CoursePage.css */
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Animation for card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Custom styling for the discussion forum */
+.forum-post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Animation for forum post hover effect */
+.forum-post:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
