@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+Learning management system(LMS) Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.Login/Registration Screen:
+* Use Case: Users should be able to log in or register for an account.
+* Features: Form fields for username/email and password, "Forgot Password" link, and "Register" link.
 
-## Available Scripts
 
-In the project directory, you can run:
+2.Dashboard:
+* Use Case: After logging in, users should be directed to a personalized dashboard.
+* Features: Overview of enrolled courses, upcoming assignments, notifications, and quick access to course materials. 
+* https://app.uizard.io/prototypes/JOMbGl8414FOQoL47R8v
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3.Course Catalog:
+* Use Case: Users can browse available courses and view details.
+* Features: Search and filter options, course descriptions, instructor information, and enrollment button. 
+* https://app.uizard.io/prototypes/9yd06YjlWdfqV6XLPpBV
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4.Course Page:
+* Use Case: Users can access course materials and interact with course content.
+* Features: Course overview, modules/lessons, assignments, grades, discussion forum, and announcements.
+* https://app.uizard.io/prototypes/dW31oxQA4MIamn3Y0nxx
 
-### `npm test`
+5.Enrollment:
+* Use Case: Users can enroll in courses.
+* Features: Enrollment button on course details page, confirmation message, and link to access the enrolled course.
+* https://app.uizard.io/prototypes/g4Qrz39zvBSaV0jXYWo6
+* https://app.uizard.io/prototypes/g4Qrz39zvBSaV0jXYWo6/player/preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6.Assignment Submission:
+    * Use Case: Students can submit assignments.
+    * Features: Assignment details, submission form, file upload, and submission confirmation.
+    * https://app.uizard.io/prototypes/7gO6rvLzEXcZPMj35RL6
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. Grades:
+    * Use Case: Students can view their grades for assignments and overall course.
+    * Features: Grades breakdown by assignment, cumulative grade for the course, and feedback from instructors. Here's a simplified diagram illustrating the Grades section for the Online Learning Management System:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+8. Discussion Forum:
+    * Use Case: Users can participate in course-related discussions.
+    * Features: Threaded discussions, reply functionality, upvoting/downvoting, and sorting options. 
+    * https://app.uizard.io/prototypes/xPWdzwX4OysdrmlWgn6b
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+9. Notifications:
+    * Use Case: Users receive notifications for course updates, assignments, and forum activities.
+    * Features: Notification center, real-time notifications, and option to manage notification preferences. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+10. Profile Management:
+    * Use Case: Users can manage their profile information.
+    * Features: Edit profile details, change password, view enrollment history, and access settings. Here's a simplified diagram illustrating the Profile Management section for the Online Learning Management System:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+11. Admin Dashboard:
+    * Use Case: Administrators can manage courses, users, and system settings.
+    * Features: Course management (create, edit, delete courses), user management (add, remove users), analytics dashboard, and system settings.
+    * https://app.uizard.io/prototypes/9yd0ZlY1VmSA3OL8l4bM
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
